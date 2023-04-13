@@ -23,7 +23,6 @@ app.use(session({
 }));
 
 app.get("/", function(req, res) {
-	//res.send("test")
 	if(req.session.user) {
 		console.log("Current User: " + req.session.user);
 	}

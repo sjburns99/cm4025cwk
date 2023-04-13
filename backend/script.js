@@ -1,6 +1,4 @@
-function runCalc() {
-	var hours = 20;
-	var jobType = "Junior";
+function runCalc(hours, jobType) {
 	var hrRate;
 	switch(jobType) {
 		case "Junior": 
